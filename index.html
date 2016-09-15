@@ -12,38 +12,11 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Bobingxin.GitHub.io</h1>
-      <h2 class="project-tagline">1</h2>
+      <h2 class="project-tagline">目录</h2>
     </section>
 
     <section class="main-content">
-      <h2>
-<a id="style中定义checkbox的样式" class="anchor" href="#style%E4%B8%AD%E5%AE%9A%E4%B9%89checkbox%E7%9A%84%E6%A0%B7%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>style中定义checkbox的样式</h2>
-
-<pre><code>可以使用"button"属性，用来设置checkbox选择框的样式,但是这种方法的自定义程度低,  
-无法很好的控制选择框和文字的位置。推荐使用drawableLeft来自定义checkbox。
-&lt;style name="checkbox_1" parent="Widget.AppCompat.CompoundButton.CheckBox"&gt;
-    &lt;item name="android:button"&gt;@null&lt;/item&gt;
-    &lt;item name="android:drawableLeft"&gt;@drawable/checkbox_bg1&lt;/item&gt;
-    &lt;item name="android:padding"&gt;10dp&lt;/item&gt;
-&lt;/style&gt;
-</code></pre>
-
-<h2>
-<a id="checkbox中使用style样式" class="anchor" href="#checkbox%E4%B8%AD%E4%BD%BF%E7%94%A8style%E6%A0%B7%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>checkbox中使用style样式</h2>
-
-<pre><code>&lt;CheckBox
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    style="@style/checkbox_1"/&gt;
-</code></pre>
-
-<h2>
-<a id="checkbox_bg1的drawable文件" class="anchor" href="#checkbox_bg1%E7%9A%84drawable%E6%96%87%E4%BB%B6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>checkbox_bg1的drawable文件</h2>
-
-<pre><code>&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"&gt;
-    &lt;item android:state_checked="true" android:drawable="@drawable/cb_true"/&gt;
-    &lt;item android:state_checked="false" android:drawable="@drawable/cb_false"/&gt;
-&lt;/selector&gt;
+      <pre><code>[checkbox style 设置](bobingxin.github.io/1)
 </code></pre>
 
       <footer class="site-footer">
